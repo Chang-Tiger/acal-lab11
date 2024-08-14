@@ -1,0 +1,268 @@
+$date
+2024-05-18T05:14+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module AXISlaveReadMux $end
+ $var wire 1 ! io_out_readData_valid $end
+ $var wire 1 " io_in_0_readData_bits_last $end
+ $var wire 8 # io_in_0_readAddr_bits_len $end
+ $var wire 4 $ io_in_0_readAddr_bits_qos $end
+ $var wire 1 & mask_0 $end
+ $var wire 2 ' io_out_readAddr_bits_size $end
+ $var wire 32 ( io_in_0_readData_bits_data $end
+ $var wire 1 ) io_in_0_readAddr_bits_lock $end
+ $var wire 1 * io_out_readData_bits_last $end
+ $var wire 2 + state $end
+ $var wire 1 , io_in_0_readAddr_ready $end
+ $var wire 32 - io_out_readData_bits_data $end
+ $var wire 1 . io_out_readAddr_bits_lock $end
+ $var wire 1 / io_out_readData_ready $end
+ $var wire 4 0 io_in_0_readAddr_bits_cache $end
+ $var wire 2 1 data_reg_resp $end
+ $var wire 1 2 reset $end
+ $var wire 2 3 io_in_0_readData_bits_resp $end
+ $var wire 2 5 io_in_0_readAddr_bits_burst $end
+ $var wire 4 6 io_out_readAddr_bits_cache $end
+ $var wire 4 7 address_reg_id $end
+ $var wire 8 8 io_out_readAddr_bits_len $end
+ $var wire 4 9 io_out_readAddr_bits_qos $end
+ $var wire 1 : io_out_readAddr_valid $end
+ $var wire 1 ; outstanding $end
+ $var wire 3 < address_reg_prot $end
+ $var wire 32 = io_in_0_readAddr_bits_addr $end
+ $var wire 32 ? io_out_readAddr_bits_addr $end
+ $var wire 4 A address_reg_cache $end
+ $var wire 4 B address_reg_region $end
+ $var wire 2 C io_in_0_readAddr_bits_size $end
+ $var wire 4 D io_in_0_readAddr_bits_region $end
+ $var wire 1 F address_reg_lock $end
+ $var wire 4 H io_in_0_readData_bits_id $end
+ $var wire 1 I clock $end
+ $var wire 4 J io_out_readAddr_bits_id $end
+ $var wire 1 K arbiter $end
+ $var wire 1 L io_in_0_readData_valid $end
+ $var wire 1 M io_out_readAddr_ready $end
+ $var wire 4 N io_out_readAddr_bits_region $end
+ $var wire 2 O io_out_readData_bits_resp $end
+ $var wire 1 P io_in_0_readData_ready $end
+ $var wire 32 Q data_reg_data $end
+ $var wire 2 R address_reg_size $end
+ $var wire 1 S io_in_0_readAddr_valid $end
+ $var wire 4 T address_reg_qos $end
+ $var wire 8 U address_reg_len $end
+ $var wire 3 V io_in_0_readAddr_bits_prot $end
+ $var wire 32 W address_reg_addr $end
+ $var wire 4 X io_out_readData_bits_id $end
+ $var wire 1 Y ar_determined $end
+ $var wire 2 Z address_reg_burst $end
+ $var wire 3 \ io_out_readAddr_bits_prot $end
+ $var wire 4 ] data_reg_id $end
+ $var wire 1 ^ data_reg_last $end
+ $var wire 4 _ io_in_0_readAddr_bits_id $end
+ $var wire 2 ` io_out_readAddr_bits_burst $end
+  $scope module arbiter $end
+   $var wire 1 % io_out_ready $end
+   $var wire 1 4 io_in_0_valid $end
+   $var wire 1 > grantMask_0 $end
+   $var wire 1 @ io_out_valid $end
+   $var wire 1 E io_in_0_ready $end
+   $var wire 1 G ctrl_1 $end
+   $var wire 1 [ validMask_0 $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+02
+b00000000000000000000000000000000 -
+04
+b00000000000000000000000000000000 (
+b00 1
+0:
+0;
+b00 5
+0>
+b00 3
+0@
+b00 '
+b00000000000000000000000000000000 =
+0E
+0F
+b00 +
+0G
+0I
+0K
+0L
+0M
+b0000 $
+0P
+0S
+0Y
+0[
+0^
+b000 V
+b0000 0
+b00000000 U
+b0000 9
+b0000 6
+b0000 7
+b000 \
+b0000 D
+b0000 B
+b0000 A
+b00000000 #
+b0000 J
+b0000 H
+b0000 T
+b0000 N
+b00000000 8
+b0000 ]
+b00 `
+b0000 X
+b000 <
+b0000 _
+b00 Z
+b00 O
+b00000000000000000000000000000000 ?
+b00 R
+0!
+0"
+b00000000000000000000000000000000 W
+0%
+0&
+0)
+0*
+0,
+0.
+b00 C
+b00000000000000000000000000000000 Q
+0/
+$end
+#0
+12
+1%
+1E
+1&
+1G
+1,
+#1
+1I
+#6
+1@
+1!
+b00000001 #
+b10 C
+0I
+b00000000000000000110011001100110 -
+1M
+1P
+02
+1S
+14
+1;
+b00000000000000001010101010101010 =
+#11
+0@
+0&
+b10 '
+1I
+b01 +
+0,
+1/
+b10 R
+04
+b00000001 U
+b00000000000000001010101010101010 W
+b00000001 8
+1Y
+1:
+b00000000000000001010101010101010 ?
+#16
+b00000001 #
+b10 C
+1S
+0I
+1;
+b00000000000000001010101010101110 =
+#21
+b00000000000000000110011001100110 Q
+b00000000000000000110011001100110 (
+1I
+0Y
+0:
+b10 +
+1L
+0/
+#26
+1!
+0I
+1*
+b00000000000000000111011101110111 -
+#31
+1@
+14
+1&
+1I
+b00 +
+1,
+0L
+#36
+0I
+#41
+0@
+04
+0&
+b00000000000000001010101010101110 W
+1I
+1Y
+1:
+b01 +
+0,
+1/
+b00000000000000001010101010101110 ?
+#46
+b00000000 #
+b00 C
+0S
+0I
+0;
+b00000000000000000000000000000000 =
+#51
+b00000000000000000111011101110111 Q
+1"
+b00000000000000000111011101110111 (
+1I
+0Y
+0:
+b10 +
+1L
+1^
+0/
+#56
+0!
+0I
+0*
+b00000000000000000000000000000000 -
+#61
+1&
+1I
+b00 +
+1,
+0L
+#66
+0I
+#71
+1I
+#76
+0I
+#81
+1I
+#86
+0P
+0I
+0M

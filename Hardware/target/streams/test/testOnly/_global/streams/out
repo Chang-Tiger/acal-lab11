@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AXILite.AXILiteXBarBurstTest, org.scalatest.tools.Framework$$anon$1@14edd0e2, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAXILiteXBarBurstTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMasters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should send/read data to each Slaves according to addr[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 9 seconds, 495 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AXILite.AXILiteXBarBurstTest[0m

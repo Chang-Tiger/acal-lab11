@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/User/projects/lab11-3/Hardware/src/test/scala/lab11/AXI_lite/AXILiteXBarBurstTest.scala:80:112: ')' expected but string literal found.[0m
+[0m[[0m[31merror[0m] [0m[0m        println("[Test]: Master 0 observe data 0x" + dut.io.masters(0).r.bits.data.peek().litValue.toString(16)", r.last = " + dut.io.masters(0).r.bits.last.peek().litValue.toString(16))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/User/projects/lab11-3/Hardware/src/test/scala/lab11/AXI_lite/AXILiteXBarBurstTest.scala:80:186: ';' expected but ')' found.[0m
+[0m[[0m[31merror[0m] [0m[0m        println("[Test]: Master 0 observe data 0x" + dut.io.masters(0).r.bits.data.peek().litValue.toString(16)", r.last = " + dut.io.masters(0).r.bits.last.peek().litValue.toString(16))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

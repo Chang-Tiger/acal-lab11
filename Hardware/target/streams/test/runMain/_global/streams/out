@@ -1,0 +1,44 @@
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.PassExceptions: [0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.transforms.CheckCombLoops$CombLoopException: : [module DataMem] Combinational loop detected:[0m
+[0m[[0m[31merror[0m] [0m[0mDataMem.wAddrOffset[0m
+[0m[[0m[31merror[0m] [0m[0mDataMem._wAddrOffset_T_5	 @[DataMem.scala 249:32][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem._wAddrOffset_T_6	 @[DataMem.scala 249:32][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem._GEN_99	 @[DataMem.scala 243:38 DataMem.scala 249:17][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem._GEN_105	 @[DataMem.scala 240:39][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem._GEN_118	 @[DataMem.scala 229:39][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem._GEN_139	 @[DataMem.scala 203:36][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem._GEN_159	 @[DataMem.scala 197:30][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem.wAddrOffset	[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.transforms.CheckCombLoops$CombLoopException: : [module DataMem_1] Combinational loop detected:[0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1.wAddrOffset[0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1._wAddrOffset_T_5	 @[DataMem.scala 249:32][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1._wAddrOffset_T_6	 @[DataMem.scala 249:32][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1._GEN_99	 @[DataMem.scala 243:38 DataMem.scala 249:17][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1._GEN_105	 @[DataMem.scala 240:39][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1._GEN_118	 @[DataMem.scala 229:39][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1._GEN_139	 @[DataMem.scala 203:36][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1._GEN_159	 @[DataMem.scala 197:30][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1.wAddrOffset	[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.PassException: 2 errors detected![0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mrunMain[0m) firrtl.passes.PassExceptions: [0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.transforms.CheckCombLoops$CombLoopException: : [module DataMem] Combinational loop detected:[0m
+[0m[[0m[31merror[0m] [0m[0mDataMem.wAddrOffset[0m
+[0m[[0m[31merror[0m] [0m[0mDataMem._wAddrOffset_T_5	 @[DataMem.scala 249:32][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem._wAddrOffset_T_6	 @[DataMem.scala 249:32][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem._GEN_99	 @[DataMem.scala 243:38 DataMem.scala 249:17][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem._GEN_105	 @[DataMem.scala 240:39][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem._GEN_118	 @[DataMem.scala 229:39][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem._GEN_139	 @[DataMem.scala 203:36][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem._GEN_159	 @[DataMem.scala 197:30][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem.wAddrOffset	[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.transforms.CheckCombLoops$CombLoopException: : [module DataMem_1] Combinational loop detected:[0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1.wAddrOffset[0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1._wAddrOffset_T_5	 @[DataMem.scala 249:32][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1._wAddrOffset_T_6	 @[DataMem.scala 249:32][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1._GEN_99	 @[DataMem.scala 243:38 DataMem.scala 249:17][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1._GEN_105	 @[DataMem.scala 240:39][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1._GEN_118	 @[DataMem.scala 229:39][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1._GEN_139	 @[DataMem.scala 203:36][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1._GEN_159	 @[DataMem.scala 197:30][0m
+[0m[[0m[31merror[0m] [0m[0mDataMem_1.wAddrOffset	[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.PassException: 2 errors detected![0m

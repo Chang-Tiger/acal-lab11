@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m/home/User/projects/lab11-3/Hardware/src/main/scala/lab11/DMA/DMA.scala:225:30: value last is not a member of chisel3.util.DecoupledIO[AXI.Axi4ReadData][0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean wait?[0m
+[0m[[0m[31merror[0m] [0m[0m    mReadlast := io.master.r.last//modified[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
