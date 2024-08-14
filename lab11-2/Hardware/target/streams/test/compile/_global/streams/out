@@ -1,0 +1,7 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/User/projects/lab11-2/Hardware/src/test/scala/lab11/SoCTest.scala:9:41: object PeekPokeTester in package iotesters is deprecated (since chisel-iotesters 2.5.0): chisel-iotesters is end-of-life. Use chiseltest instead, see https://www.chisel-lang.org/chiseltest/migrating-from-iotesters.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass top_SoCTest(dut: top_SoC) extends PeekPokeTester(dut) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/User/projects/lab11-2/Hardware/src/test/scala/lab11/SoCTest.scala:191:3: object Driver in package iotesters is deprecated (since chisel-iotesters 2.5.0): chisel-iotesters is end-of-life. Use chiseltest instead, see https://www.chisel-lang.org/chiseltest/migrating-from-iotesters.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  Driver.execute([0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

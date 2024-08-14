@@ -1,0 +1,45 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/SoC.top_SoCTest1008503990/top_SoC.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~top_SoC|RRArbiter",
+    "duplicate":"~top_SoC|top_SoC/bus:AXILiteXBar/readMuxes_0:AXISlaveReadMux/arbiter:RRArbiter",
+    "index":0.72
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~top_SoC|RRArbiter_1",
+    "duplicate":"~top_SoC|top_SoC/bus:AXILiteXBar/writeMuxes_0:AXISlaveWriteMux/arbiter:RRArbiter",
+    "index":0.84
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"top_SoC.InstMem.memory",
+    "fileName":"./src/main/resource/inst.hex",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"memory"
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/SoC.top_SoCTest1008503990"
+  },
+  {
+    "class":"firrtl.annotations.MemoryFileInlineAnnotation",
+    "target":"~top_SoC|DataMem>memory",
+    "filename":"./src/main/resource/data.hex",
+    "hexOrBinary":"h"
+  }
+]

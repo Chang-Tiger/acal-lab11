@@ -1,0 +1,39 @@
+[
+  {
+    "class":"firrtl.transforms.DontTouchAnnotation",
+    "target":"~top_SoC|DMA>io"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"top_SoC.InstMem.memory",
+    "fileName":"./src/main/resource/inst.hex",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"memory"
+  },
+  {
+    "class":"firrtl.annotations.MemoryFileInlineAnnotation",
+    "target":"~top_SoC|DataMem>memory",
+    "filename":"./src/main/resource/data0.hex",
+    "hexOrBinary":"h"
+  },
+  {
+    "class":"firrtl.annotations.MemoryFileInlineAnnotation",
+    "target":"~top_SoC|DataMem_1>memory",
+    "filename":"./src/main/resource/data1.hex",
+    "hexOrBinary":"h"
+  },
+  {
+    "class":"firrtl.stage.RunFirrtlTransformAnnotation",
+    "transform":"chisel3.util.experimental.LoadMemoryTransform"
+  },
+  {
+    "class":"firrtl.stage.RunFirrtlTransformAnnotation",
+    "transform":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  }
+]

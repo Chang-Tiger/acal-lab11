@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/User/projects/lab11-2/Hardware/src/main/scala/lab11/top_SoC.scala:123:26: not found: value dma[0m
+[0m[[0m[31merror[0m] [0m[0m    bus.io.masters(1) <> dma.io.master[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/User/projects/lab11-2/Hardware/src/main/scala/lab11/top_SoC.scala:125:25: not found: value dma[0m
+[0m[[0m[31merror[0m] [0m[0m    bus.io.slaves(0) <> dma.io.slave[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/User/projects/lab11-2/Hardware/src/main/scala/lab11/top_SoC.scala:140:19: not found: value dma[0m
+[0m[[0m[31merror[0m] [0m[0m    io.DMA_Hcf := dma.io.Hcf[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/User/projects/lab11-2/Hardware/src/main/scala/lab11/top_SoC.scala:146:23: not found: value dma[0m
+[0m[[0m[31merror[0m] [0m[0m    cpu.io.DMA_Hcf := dma.io.Hcf[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
